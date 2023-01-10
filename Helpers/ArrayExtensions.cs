@@ -1,4 +1,4 @@
-namespace ask;
+namespace ask.Helpers;
 
 public static class ArrayExtensions
 {
