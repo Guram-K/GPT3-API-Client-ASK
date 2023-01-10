@@ -6,7 +6,7 @@ Application uses the OpenAI GPT-3 API to build a "ChatGPT-like" .net client app 
 ## Installation
 
 - Download executeable [here](https://github.com/Guram-K/GPT3-API-Client-ASK/releases)
-- Move config.json and ask.exe files to desired location(both files should be in the same folder)
+- Move config.json and ask.exe files to desired location (both files should be in the same folder)
 - Add ask in windows path
   - Search for "Edit the system environment variables"
   - Click "Environment Variables..."
