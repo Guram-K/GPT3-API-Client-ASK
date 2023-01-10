@@ -29,5 +29,6 @@ Application uses the OpenAI GPT-3 API to build a "ChatGPT-like" .net client app 
 
 ## Usage
 
+- Open CLI
 - To view available commands call `ask -help`
 - To simply ask a question, write: `ask "your question"`
