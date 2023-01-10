@@ -5,7 +5,7 @@ Supported platform: Windows
 
 ## Installation
 
-- Download executeable from url
+- Download executeable [here](https://github.com/Guram-K/GPT3-API-Client-ASK/releases)
 - Move .config.json and ask.exe files to desired locations
 - Add ask in windows path
   - Search for "Edit the system environment variables"
