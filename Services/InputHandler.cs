@@ -9,7 +9,7 @@ public class InputHandler
     {
         if (args.Length > 0)
         {
-            const string configFile = ".config.json";
+            const string configFile = "config.json";
 
             switch (args[0])
             {
