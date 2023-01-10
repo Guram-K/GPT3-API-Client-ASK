@@ -14,6 +14,19 @@ Application uses the OpenAI GPT-3 API to build a "ChatGPT-like" .net client app 
   - Click "New" and paste path to where ask.exe was moved
   - Click "Ok"
 
+## Generate API Key
+
+- Go to [Open AI](https://beta.openai.com/)
+- Create an account
+- Drop down "Personal" on upper right side
+- Click "View API Keys"
+- Create new secret key and copy it to pass as a variable to ASK on first configuration
+
+## Configure ASK
+
+- open cmd
+- type `ask -up -token your-token`
+
 ## Usage
 
 - To view available commands call `ask -help`
