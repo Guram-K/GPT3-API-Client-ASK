@@ -1,7 +1,7 @@
 # GPT3-API-Client-ASK
 
-Application uses the OpenAI GPT-3 API to build a "ChatGPT-like" .net client app which can be ran from CLI, providing instant help to remember any command, script and more..
-Supported platform: Windows
+Application uses the OpenAI GPT-3 API to build a "ChatGPT-like" .net client app which can be ran from CLI, providing instant help to remember any command, script and more...
+<br/>Supported platform: Windows
 
 ## Installation
 
