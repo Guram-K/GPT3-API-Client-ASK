@@ -28,6 +28,18 @@ public class HttpHandler
         return responseString;
     }
     
+    public string ParseResponseString(string responseString)
+    {
+        var dynamicData = JsonConvert.DeserializeObject<dynamic>(responseString);
+        var raw = dynamicData!.choices[0].text;
+        string[] rawArray = raw.ToString().Split('\n');
+    
+        Console.ResetColor();
+        TextCopy.ClipboardService.SetText(rawArray.Last());
+
+        return raw;
+    }
+    
     private async Task SetVariables(string fileName)
     {
         var jsonContent = await FileManager.Read(fileName);
