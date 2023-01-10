@@ -24,7 +24,7 @@ Application uses the OpenAI GPT-3 API to build a "ChatGPT-like" .net client app 
 
 ## Configure ASK
 
-- open cmd
+- open CLI
 - type `ask -up -token your-token`
 
 ## Usage
