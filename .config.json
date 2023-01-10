@@ -1,0 +1,6 @@
+{
+  "Token": "",
+  "RequestUri": "https://api.openai.com/v1/completions",
+  "AiModel": "text-davinci-001",
+  "Temperature": "0"
+}
