@@ -24,11 +24,11 @@ public class InputHandler
             case Constants.Commands.Update:
                 args.CheckElementAt(1);
 
-                if (!Constants.UpdateCommands.Contains(args[1]))
+                if (!Constants.UpdateCommands.Keys.Contains(args[1]))
                     Console.WriteLine("\ncommand not found write `ask -help` for available commands");
 
                 args.CheckElementAt(2);
-                await FileManager.UpdateConfig(nameof(ConfigData.Token), args[2], Constants.ConfigFile);
+                await FileManager.UpdateConfig(Constants.UpdateCommands[args[1]], args[2], Constants.ConfigFile);
 
                 return true;
             case Constants.Commands.Help:

@@ -10,8 +10,12 @@ public static class Constants
                                "\n      -uri - pairs after -up to update URI in configuration" +
                                "\n      -ai - pairs after -up to update AI model in configuration" +
                                "\n      -temp - pairs after -up to update AI model Temperature in configuration";
-    
-    public static readonly string[] UpdateCommands = { "-token", "-uri", "-ai", "-temp" };
+
+    public static readonly Dictionary<string, string> UpdateCommands = new()
+    {
+        { "-token", nameof(ConfigData.Token) }, { "-uri", nameof(ConfigData.RequestUri) },
+        { "-ai", nameof(ConfigData.AiModel) }, { "-temp", nameof(ConfigData.Temperature) }
+    };
 
     public static class Commands
     {
